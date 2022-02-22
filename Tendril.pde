@@ -20,13 +20,11 @@ class Tendril
   public void show()
   {
     if (myNumSegments >= 10) {
-       strokeWeight(1);
-      stroke(0, 255, 0);
+        stroke(255);
     } else
       if (myNumSegments >= 5) {
-        strokeWeight(3);
-        stroke(0, 0, 255);
-      } else stroke(0, 255, 255);
+        stroke(0);
+      } else stroke(255, 0, 0);
     double startX = myX;
     double startY = myY;
     for (int i = 0; i < myNumSegments; i++) {
