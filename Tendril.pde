@@ -10,6 +10,7 @@ class Tendril
    theta is tendril starting angle in radians
    x, y  is the starting (x,y) coordinate
    */
+   //is something wrong
   public Tendril(int len, double theta, int x, int y)
   {
     myX = x;
